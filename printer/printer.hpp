@@ -14,6 +14,7 @@ public:
 
 // Constructors of all possible printers
 //extern std::map<std::string, Printer::constructor_t*> constructors;
-extern int a;
+
+int a = 10;
 
 #endif // PLUGIN_HPP
