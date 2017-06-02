@@ -2,6 +2,8 @@ TEMPLATE = lib
 
 CONFIG = plugin
 
+QMAKE_CXX = g++-6
+
 QMAKE_CXXFLAGS += -std=c++14
 
 SOURCES = \
@@ -13,3 +15,4 @@ HEADERS += \
 
 OBJECTS_DIR = tmp
 
+DESTDIR = ../bin

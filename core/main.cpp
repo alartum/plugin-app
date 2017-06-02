@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
 
     std::list<void*> dl_list;
     constructors["test"] = nullptr;
-    void *lib_handle = dlopen("../printer/libprinter.so", RTLD_NOW);
+    void *lib_handle = dlopen("./libprinter.so", RTLD_NOW);
     if (!lib_handle){
         std::cerr << dlerror() << std::endl;
 
