@@ -1,4 +1,5 @@
 TEMPLATE = subdirs
 
-SUBDIRS += core \
-           printer
+SUBDIRS +=  core \
+            helloprinter \
+            byeprinter
